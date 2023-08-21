@@ -71,7 +71,7 @@ TypeScript provides several built-in decorators like `@deprecated`, `@sealed`, a
 
 Feel free to explore the code samples and notes in this repository to dive deeper into the world of TypeScript decorators. Happy coding!
 
-— Your Name
+— Mrigesh Thakur
 
 ---
 
