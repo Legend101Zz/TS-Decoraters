@@ -10,6 +10,7 @@ class LoginController {
   @get("/login")
   @use(logger)
   getLogin(req: Request, res: Response): void {
+    console.log("here");
     res.send(`
           <form method="POST">
             <div>
@@ -18,7 +19,7 @@ class LoginController {
             </div>
             <div>
               <label>Password</label>
-              <input name="password" type="password" />
+              <input name="e" type="password" />
             </div>
             <button>Submit</button>
           </form>
